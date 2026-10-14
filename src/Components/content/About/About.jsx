@@ -40,7 +40,7 @@ const About = () => {
   }, [displayText, isDeleting, roleIndex])
 
   return (
-    <div className="About-container">
+    <div className="About-container" id="home">
       <div className="About-content" id="about">
         <h1>Ibrahim elshafhey</h1>
         <h2 aria-live="polite">
