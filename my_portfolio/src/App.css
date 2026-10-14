@@ -1,0 +1,12 @@
+
+.app-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  isolation: isolate;
+}
+
+.app-container > * {
+  position: relative;
+  z-index: 1;
+}
