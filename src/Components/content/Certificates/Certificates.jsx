@@ -1,8 +1,8 @@
 import './Certificates.css'
 
 const certificates = [
-  { id: 1, number: '01' },
-  { id: 2, number: '02' },
+  { id: 1, number: '01', file: '/certificates/javascript-1.pdf' },
+  { id: 2, number: '02', file: '/certificates/javascript-2.pdf' },
 ]
 
 const Certificates = () => {
@@ -28,6 +28,14 @@ const Certificates = () => {
             </div>
             <h3>JavaScript</h3>
             <p className="certificate-description">Certificate of learning</p>
+            <a
+              href={certificate.file}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="certificate-view-btn"
+            >
+              View Certificate <span aria-hidden="true">↗</span>
+            </a>
             <div className="certificate-card-footer">
               <span>JavaScript</span>
               <span className="certificate-seal" aria-hidden="true">✦</span>
