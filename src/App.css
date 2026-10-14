@@ -10,3 +10,21 @@
   position: relative;
   z-index: 1;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+#home,
+#about,
+#skills,
+#projects,
+#contact {
+  scroll-margin-top: 120px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
