@@ -1,0 +1,118 @@
+    .skills-section {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  padding: 100px 5%;
+  overflow: hidden;
+  color: #fff4ee;
+}
+
+.skills-heading {
+  max-width: 850px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.skills-eyebrow {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #ff6848;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.skills-heading h2 {
+  margin: 0;
+  font-size: clamp(2.5rem, 6vw, 5.5rem);
+  line-height: 1;
+  font-weight: 850;
+  letter-spacing: -3px;
+}
+
+.skills-heading h2 span {
+  color: #ff5b38;
+  text-shadow: 0 0 30px #ff3c2525;
+}
+
+.skills-heading p {
+  margin: 22px auto 0;
+  max-width: 500px;
+  color: #a9a09c;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.skills-marquee {
+  display: grid;
+  gap: 8px;
+  width: calc(100% + 10vw);
+  margin: 0 -5vw 80px;
+  padding: 16px 0;
+  overflow: hidden;
+  border-top: 1px solid #ffffff12;
+  border-bottom: 1px solid #ffffff12;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ff43200b,
+    transparent
+  );
+}
+
+.skills-marquee-track {
+  display: flex;
+  width: max-content;
+  white-space: nowrap;
+  will-change: transform;
+  transition: transform 80ms linear;
+}
+
+.skills-marquee-track span {
+  padding: 0 20px;
+  color: #f5eae5;
+  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+
+.skills-marquee-track i {
+  padding: 0 15px;
+  color: #ff5837;
+  font-size: 0.65em;
+  font-style: normal;
+}
+
+.skills-marquee-track.outline span {
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff75;
+}
+
+@media (max-width: 600px) {
+  .skills-section {
+    padding: 75px 18px;
+  }
+
+  .skills-heading {
+    margin-bottom: 50px;
+  }
+
+  .skills-heading h2 {
+    letter-spacing: -1.5px;
+  }
+
+  .skills-marquee {
+    width: calc(100% + 36px);
+    margin: 0 -18px 55px;
+  }
+
+  .skills-marquee-track span {
+    letter-spacing: -1px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skills-marquee-track {
+    transition: none;
+  }
+}
