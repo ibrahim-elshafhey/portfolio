@@ -2,7 +2,9 @@
 /* =========================================
    ABOUT — MULTIVERSE / GLASS / NEON
 ========================================= */
-
+a{
+  text-decoration: none;
+}
 .About-container {
   position: relative;
   isolation: isolate;

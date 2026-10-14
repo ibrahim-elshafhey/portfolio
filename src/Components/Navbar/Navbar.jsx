@@ -25,7 +25,7 @@ const Navbar = () => {
         <Ancors />
       </div>
 
-      <a className="navbar-cta" href="#contact">
+      <a className="navbar-cta" href="https://wa.me/201554140954?text=Hello%20I%20want%20to%20contact%20you">
         <span className="cta-label">Let's Talk</span>
         <span className="cta-arrow" aria-hidden="true">↗</span>
       </a>

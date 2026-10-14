@@ -49,10 +49,18 @@ const About = () => {
         </h2>
         <p>I am a passionate developer with experience in creating dynamic web applications.</p>
         <span className="About-social">
-          <i className="fab fa-github" aria-label="GitHub" title="GitHub" />
-          <i className="fab fa-linkedin" aria-label="LinkedIn" title="LinkedIn" />
-          <i className="fab fa-facebook" aria-label="Facebook" title="Facebook" />
-          <i className="fab fa-instagram" aria-label="Instagram" title="Instagram" />
+          <a href="https://github.com/ibrahim-elshafhey" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github" aria-label="GitHub" title="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/ibrahem-elshafhey-6b89b1372?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin" aria-label="LinkedIn" title="LinkedIn" />
+          </a>
+          <a href="https://www.facebook.com/share/1C63AmiJoT/" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook" aria-label="Facebook" title="Facebook" />
+          </a>
+          <a href="https://instagram.com/ebrahim0517elshafhey?dlrf=NzNldXZ6MnlzN2Vp" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram" aria-label="Instagram" title="Instagram" />
+          </a>
         </span>
       </div>
       <div className="About-image">
