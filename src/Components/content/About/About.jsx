@@ -41,7 +41,7 @@ const About = () => {
 
   return (
     <div className="About-container">
-      <div className="About-content">
+      <div className="About-content" id="about">
         <h1>Ibrahim elshafhey</h1>
         <h2 aria-live="polite">
           {displayText}

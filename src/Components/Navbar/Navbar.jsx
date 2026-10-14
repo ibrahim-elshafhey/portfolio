@@ -15,7 +15,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <nav className={`navbar-container${scrolled ? ' scrolled' : ''}`}>
+    <nav className={`navbar-container${scrolled ? ' scrolled' : ''}`} >
       <a className="navbar-brand" href="#home" aria-label="Ibrahim Elshafhey home">
         <img src={logo} alt="" />
         <h1>ibrahim <span>elshafhey</span></h1>
